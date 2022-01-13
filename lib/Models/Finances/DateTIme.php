@@ -26,7 +26,7 @@ use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
  *
  * @author   Stefan Neuhaus / ClouSale
  */
-class Date implements ModelInterface, ArrayAccess
+class DateTime implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
